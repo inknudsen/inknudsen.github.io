@@ -13,7 +13,7 @@
         }
         div.shop{
             display: flex;
-            width: 75%;
+            width: 85%;
             margin: auto;
             flex-basis: 100%;
         }
@@ -32,7 +32,7 @@
             height: 1.25em;
             text-align: center;
             color: white;
-            font-size: 3em;
+            font-size: 2.5em;
             font-family: Custard, sans-serif;
         }
         li{
@@ -47,13 +47,13 @@
         }
         .key{
             margin: auto;
-            width: 75%;
+            width: 85%;
             font-size: 0.75em;
             padding: 0.5em 0 2em 0;
             text-align: center;
         }
         .name{
-            font-size: 3em;
+            font-size: 2.5em;
             font-family: Custard, sans-serif;
             padding-bottom: 0.25em;
             padding-left: 0.25em;
@@ -71,11 +71,11 @@
             padding-left: 1.5em;
         }
         .icon{
-            height: 1.5em;
-            padding: 0 0.25em 0 1.5em;
+            height: 1.25em;
+            padding: 0 0.25em 0 1em;
         }
         .icon_left{
-            height: 1.5em;
+            height: 1.25em;
             padding: 0 0.25em 0 0;
         }
         .photo{
@@ -83,19 +83,27 @@
             padding-left: 1.5em;
         }
         .symbol{
-            padding: 0 0 0 1em;
+            padding: 0 0 0 0.5em;
             height: 1.5em;
         }
         .symbol_strip{
             width: 35%;
             text-align: right;
         }
-        .number{
-            padding: 0.25em 0;
-            width: 100%;
-        }
         .circle{
-            width: 5%;
+            width: 1em;
+            height: 1em;;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 2em;
+            font-family: Custard, sans-serif;
+            padding: 0.25em;
+        }
+        #pink{
+            background-color: #E8BFFF;
+        }
+        #green{
+            background-color: #BFFFDB;
         }
         hr{
             width: 50%;
@@ -127,10 +135,11 @@
         }
         .digital_pic{
             width: 100%;
-            border: 1px solid grey;
+            border: 1px solid lightgrey;
         }
-        html {
+        html{
             scroll-behavior: smooth;
+            text-decoration-line: none;
         }
     </style>
 </head>
@@ -161,7 +170,7 @@
         <body>
             <div class="block">
                 <div class="shop">
-                    <div class="circle"><img src="numbers/pink_1.svg" alt="number 1" class="number"></div>
+                    <div class="circle" id="pink">1</div>
                     <div class="name"><a href="https://www.jiggershop.com/index.php">The Jigger Shop</a></div>
                     <div class="symbol_strip">
                         <ul>
@@ -194,7 +203,7 @@
         <body>
             <div class="block">
                 <div class="shop">
-                    <div class="circle"><img src="numbers/green_2.svg" alt="number 2" class="number"></div>
+                    <div class="circle" id="green">2</div>
                     <div class="name"><a href="https://www.foxmeadowscreamery.com/visit/creamery">Fox Meadows Creamery</a></div>
                     <div class="symbol_strip">
                         <ul>
@@ -230,7 +239,7 @@
         <body>
             <div class="block">
                 <div class="shop">
-                    <div class="circle"><img src="numbers/pink_3.svg" alt="number 3" class="number"></div>
+                    <div class="circle" id="pink">3</div>
                     <div class="name"><a href="https://brusters.com/">Bruster's Ice Cream</a></div>
                     <div class="symbol_strip">
                         <ul>
@@ -262,7 +271,7 @@
         <body>
             <div class="block">
                 <div class="shop">
-                    <div class="circle"><img src="numbers/green_4.svg" alt="number 4" class="number"></div>
+                    <div class="circle" id="green">4</div>
                     <div class="name"><a href="https://manheimtwinkiss.com/">Manheim Twin Kiss</a></div>
                     <div class="symbol_strip">
                         <ul>
@@ -294,7 +303,7 @@
         <body>
             <div class="block">
                 <div class="shop">
-                    <div class="circle"><img src="numbers/pink_5.svg" alt="number 5" class="number"></div>
+                    <div class="circle" id="pink">5</div>
                     <div class="name"><a href="https://www.facebook.com/3BIceCream/">3B Ice Cream</a></div>
                     <div class="symbol_strip">
                         <ul>
@@ -327,7 +336,7 @@
         <body>
             <div class="block">
                 <div class="shop">
-                    <div class="circle"><img src="numbers/green_6.svg" alt="number 6" class="number"></div>
+                    <div class="circle" id="green">6</div>
                     <div class="name"><a href="https://www.facebook.com/hannasicecreamshoppe/">Hanna’s Ice Cream Shoppe</a></div>
                     <div class="symbol_strip">
                         <ul>
@@ -356,7 +365,7 @@
 <body>
     <div class="block">
         <div class="shop">
-            <div class="circle"><img src="numbers/pink_7.svg" alt="number 7" class="number"></div>
+            <div class="circle" id="pink">7</div>
             <div class="name"><a href="https://www.nittanyscoops.com/">Nittany Scoops</a></div>
             <div class="symbol_strip">
                 <ul>
@@ -389,7 +398,7 @@
         <body>
             <div class="block">
                 <div class="shop">
-                    <div class="circle"><img src="numbers/green_8.svg" alt="number 8" class="number"></div>
+                    <div class="circle" id="green">8</div>
                     <div class="name"><a href="https://www.facebook.com/KingKoneCreamery/">King Kone Creamery</a></div>
                     <div class="symbol_strip">
                         <ul>
