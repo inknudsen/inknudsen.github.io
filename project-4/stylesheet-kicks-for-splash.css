@@ -4,6 +4,25 @@ img{
 div{
     padding: 0 0 20px 0;
 }
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 25px;
+    margin: 100px;
+}
+.module {
+    background: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+} 
 .col-4{
     background-color: #37FE00;
 }
@@ -112,7 +131,7 @@ a.contact-nav-button::before{
 }
 .about-sel{
     text-decoration: none;
-    padding: 0.25em 0.75em 0.25em 0;
+    padding: 0.25em 0.75em;
     border-radius: 0.75em;
     background-color: #00B6CF;
 }
@@ -171,5 +190,9 @@ a.contact-nav-button:hover{
 }
 ul{
     height: auto;
+}
+.grid{
+    margin: 0;
+    grid-gap: 0;
 }
 }
