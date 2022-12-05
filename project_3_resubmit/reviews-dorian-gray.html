@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Picture of Dorian Gray</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="../dorian-grey-stylesheet.css">
+    <script>
+       window.onload = function() {
+      let toggleNav = document.getElementById('toggle-nav');
+
+      toggleNav.addEventListener('click', function(){
+
+        document.body.classList.toggle('nav-open');
+
+        });
+      };
+    </script>
+  </head>
+  <script>
+    window.onload = function() {
+   let toggleNav = document.getElementById('toggle-nav');
+
+   toggleNav.addEventListener('click', function(){
+
+     document.body.classList.toggle('nav-open');
+
+     });
+   };
+ </script>
+</head>
+<body id="top">
+ <div class="header"></div>
+  <div class="row" id="sticky-nav">
+     <div id="nav-logo">
+         <a href="./the-picture-of-dorian-gray.html" class="home-button"><img src="./dorian-gray-logo.svg" alt="dorian graylogo"></a>
+     </div>
+     <div id="nav-bar">
+         <button id="toggle-nav"><span class="material-symbols-outlined">menu</span></button>
+         <nav id="primary-nav">
+            <ul>
+              <li><a href="./synopsis-dorian-gray.html">Synopsis</a></li>
+              <li><a href="./reviews-dorian-gray.html" class="red">Reviews</a></li>
+              <li><a href="./author-dorian-gray.html">About the Author</a></li>
+              <li><a href="./characters-dorian-gray.html">Important Characters</a></li>
+              <li><a href="./read-dorian-gray.html">Read the Book</a></li>
+            </ul>
+         </nav>
+     </div>
+ </div>
+ <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+            <h1>Reviews</h1>
+            <p>"The only novel by Oscar Wilde, this thrilling story explores the darker sides of youth and beauty!"
+                <br><strong>-Enertainment Weekly</strong></p>
+                <br class="reviews">
+            <p>"A timeless classic that explores morality and mortality in the aristocracies of France."
+                <br><strong>-Time Magazine</strong></p>
+                <br class="reviews">
+            <p>"A marvelous blending of Gothic horror and French society that's impossible to put down!"
+                <br><strong>-Publishers Weekly</strong></p>
+                <br class="reviews">
+            <p>"As remarkable and relevant of a read today as it was a hundred years ago."
+                <br><strong>-USA Today</strong></p>
+                <br class="reviews">
+            <p>"Wilde has crafted a one-of-a-kind story that invites us all to explore deeply our own souls."
+                <br><strong>-The New York Times</strong></p>
+                <br class="reviews">
+        </div>
+      </div>
+    </div>
+   </main>
+</body>
+</html>
