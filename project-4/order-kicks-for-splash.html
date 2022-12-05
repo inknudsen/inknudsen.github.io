@@ -20,12 +20,13 @@
       };
     </script>
 </head>
-<body>
-    <div class="nav-row">
-        <div class="nav-logo">
-            <a href="./kicks-for-splash.html" class="home-button"><img src="./B_Knudsen_Small_Biz_Marks-01.png" alt="kicks for splash logo"></a>
+<body id="top">
+    <div class="row" id="sticky-nav">
+        <div id="nav-logo">
+            <a href="./kicks-for-splash.html" class="home-button"><img src="./images/b_Knudsen_Small_Biz_Marks-01.png" alt="kicks for splash logo"></a>
         </div>
-        <div class="nav-bar">
+        <div class="header"></div>
+        <div id="nav-bar">
             <button id="toggle-nav"><span class="material-symbols-outlined">menu</span></button>
             <nav id="primary-nav">
                 <ul>
@@ -38,18 +39,22 @@
             </nav>
         </div>
     </div>
-    <form>
-        <label for="firstname">First Name</label>
-        <input id="firstname" name="firstname" type="text">
-        <label for="email">Enter your email</label>
-        <input id="email" type="email" required></imput>
-        <input type="submit" value="Enter my name"></imput>
-        <select name="cars" id="cars">
-            <option value="red">red</option>
-            <option value="yellow">yellow</option>
-            <option value="blue">blue</option>
-        </select>
-    </form>
-   
+    <div class="header"></div>
+    <main>
+        <form>
+            <label for="firstname">First Name</label>
+            <input id="firstname" name="firstname" type="text">
+            <label for="email">Enter your email</label>
+            <input id="email" type="email" required></imput>
+            <input type="submit" value="Enter my name"></imput>
+            <select name="cars" id="cars">
+                <option value="red">red</option>
+                <option value="yellow">yellow</option>
+                <option value="blue">blue</option>
+            </select>
+        </form>
+    </main>
+    <div class="bottom-nav-bar"><a href="#top">Back to Top ↑</a></div>
+    <div class="footer"></div>
 </body>
 </html>
