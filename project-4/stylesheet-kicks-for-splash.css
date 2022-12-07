@@ -262,6 +262,9 @@ img.home-pic{
     font-size: 5em;
     line-height: 1em;
 }
+.carousel-indicators{
+    z-index: 1;
+}
 
 @media (max-width: 767px){
     .row{
