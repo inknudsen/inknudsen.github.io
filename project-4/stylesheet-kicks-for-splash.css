@@ -3,6 +3,11 @@ body{
     font-size: 1em;
     color: black;
 }
+.home-background{
+    background-image: url(./images/home-pic-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 main{
     padding: 100px 5% 100px 5%;
     width: 100%;
@@ -49,6 +54,7 @@ h2{
     padding: 0;
     position: relative;
     color: transparent;
+    cursor: grab;
 }
 .module:hover{
     color: white;
@@ -71,7 +77,7 @@ h2{
     padding: 0;
 }
 .col-6{
-    background-color: #00B6CF;
+    background-color: white;
     padding: 0;
 }
 nav{
@@ -93,8 +99,7 @@ div#nav-bar{
     height: 75px;
 }
 div#nav-logo{
-    width: 85px;
-    padding: 10px 15px;
+    padding: 5px 15px;
 }
 #primary-nav{
     text-align: right;
@@ -104,6 +109,13 @@ li{
     margin: auto;
     padding: 1.5em 0.5em;
     display:inline-block;
+}
+.contact-list{
+    padding: 0;
+}
+.contact-pics{
+    width: 50px;
+
 }
 .material-symbols-outlined{
   font-variation-settings:
@@ -116,6 +128,7 @@ li{
 a{
     color: white;
     padding: 0.25em 0.75em 0.25em 0;
+    text-decoration: none;
 }
 a.home-button::before{
     display: none;
@@ -171,6 +184,7 @@ a.contact-nav-button::before{
 ul{
     height: 75px;
     padding: 0;
+    margin: 0;
 }
 .about-pics{
     border-radius: 10vw;
@@ -205,7 +219,7 @@ ul{
     height: 75px;
 }
 .footer{
-    background-color: black;
+    background-color: transparent;
     height: 40px;
     position:sticky;
     bottom: 0;
@@ -265,6 +279,12 @@ img.home-pic{
 .carousel-indicators{
     z-index: 1;
 }
+div.header{
+    display: none;
+}
+#drop-pick{
+    padding-left: 25px;
+}
 
 @media (max-width: 767px){
     .row{
@@ -274,12 +294,6 @@ img.home-pic{
     .row-b{
         padding: 0;
         flex-direction: column-reverse;
-    }
-    .col-4{
-        max-width: 100%;
-    }
-    .col-8{
-        max-width: 100%;
     }
     #toggle-nav{
         display: block;
@@ -308,13 +322,35 @@ img.home-pic{
     div.row{
         background-color: black;
     }
+    div.header{
+        display: block;
+    }
     .col-5{
         max-width: 100%;
         padding: 10px 10px 20px 10px;
         text-align: left;
+        width: 100%;
     }
     .col-7{
         max-width: 100%;
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+        background-color: white;
+    }
+    .col-9{
+        width: 100%;
+        background-color: white;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .row > .col-5{
+        padding-left: 10px;
+    }
+    .row-b > .col-5{
+        padding-right: 10px;
     }
     .about-pics{
         padding: 0;
@@ -382,5 +418,12 @@ img.home-pic{
     }
     main{
         padding: 0;
+    }
+    #drop-pick{
+        padding: 10px;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
     }
     }
